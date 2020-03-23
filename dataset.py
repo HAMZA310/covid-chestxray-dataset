@@ -93,8 +93,8 @@ class COVID19_Dataset(Dataset):
     """
     
     def __init__(self, 
-                 imgpath= "/covid/images",
-                 csvpath="/covid/metadata.csv", 
+                 imgpath= "/content/covid/images",
+                 csvpath="/content/covid/metadata.csv", 
                  transform=None, 
                  data_aug=None, 
                  nrows=None, 
