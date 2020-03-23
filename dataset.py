@@ -42,7 +42,6 @@ default_pathologies = [  'Atelectasis',
                  'Enlarged Cardiomediastinum'
                 ]
 
-thispath = os.path.dirname(os.path.realpath(__file__))
 
 def normalize(sample, maxval):
     """Scales images to be roughly [-1024 1024]."""
