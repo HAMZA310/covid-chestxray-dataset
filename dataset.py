@@ -94,8 +94,8 @@ class COVID19_Dataset(Dataset):
     """
     
     def __init__(self, 
-                 imgpath=os.path.join(thispath, "covid-chestxray-dataset", "images"), 
-                 csvpath=os.path.join(thispath, "covid-chestxray-dataset", "metadata.csv"), 
+                 imgpath= "/covid-chestxray-dataset/images",
+                 csvpath="/covid-chestxray-dataset/metadata.csv", 
                  transform=None, 
                  data_aug=None, 
                  nrows=None, 
